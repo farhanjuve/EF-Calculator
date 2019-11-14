@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".editor_6">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="#FFFF"
+        app:cardCornerRadius="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/judul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Emisi Karbon"
+                android:textAlignment="textEnd"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2">
+
+                    <TextView
+                        android:id="@+id/kendaraankecil"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Jumlah Kendaraan Kecil (Sedan dan Motor)"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/jml_kendaraankecil"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="21dp"
+                        android:inputType="number" />
+
+                    <TextView
+                        android:id="@+id/kendaraanbesar"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="16dp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:textSize="12sp"
+                        android:layout_below="@+id/kendaraankecil"
+                        android:text="Jumlah Kendaraan Besar (Bus dan Truk)"
+                        />
+
+                    <EditText
+                        android:id="@+id/jml_kendaraanbesar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/jml_kendaraankecil"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="21dp"
+                        android:inputType="number" />
+
+                    <TextView
+                        android:id="@+id/rumah_tangga"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:textSize="12sp"
+                        android:ems="10"
+                        android:layout_below="@+id/kendaraanbesar"
+                        android:text="Jumlah Rumah Tangga/KK"/>
+
+                    <EditText
+                        android:id="@+id/jml_rumah_tangga"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/jml_kendaraanbesar"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="21dp"
+                        android:ems="10"
+                        android:inputType="number" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2">
+
+                    <TextView
+                        android:id="@+id/listrik_rm"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Listrik Rumah Tangga"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/ed_listrik_rm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="21dp"
+                        android:inputType="number" />
+
+                    <TextView
+                        android:id="@+id/listrik_industri"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:layout_below="@+id/listrik_rm"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Listrik Industri"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/ed_listrik_industri"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ed_listrik_rm"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="21dp"
+                        android:inputType="number" />
+
+                    <TextView
+                        android:id="@+id/listrik_bangunanSos"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:layout_below="@+id/listrik_industri"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Listrik Bangunan Sosial"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/ed_listrik_bangunanSos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ed_listrik_industri"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="21dp"
+                        android:inputType="number" />
+
+                    <TextView
+                        android:id="@+id/listrik_bangunanKom"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:layout_below="@+id/listrik_bangunanSos"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Listrik Bangunan Komersial"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/ed_listrik_bangunanKom"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ed_listrik_bangunanSos"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="21dp"
+                        android:inputType="number" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

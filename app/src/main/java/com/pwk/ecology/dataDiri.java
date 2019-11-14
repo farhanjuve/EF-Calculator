@@ -1,0 +1,48 @@
+package com.pwk.ecology;
+
+public interface dataDiri {
+    public void nama_kab(String nama);
+    public void luas_wil(String wilayah);
+    public void jml_penduduk(String penduduk);
+    public void jml_kk(String kk);
+    public void lahan_padi(String lPadi);
+    public void ton_padi(String tpadi);
+    public void lahan_jagung(String lJagung);
+    public void ton_jagung(String tjagung);
+    public void lahan_kacangkedelai(String lkacangkedelai);
+    public void ton_kacangkedelai(String tkacangkedelai);
+    public void lahan_kacangtanah(String lkacangtanah);
+    public void ton_kacangtanah(String tkacangtanah);
+    public void lahan_kacanghijau(String lkacanghijau);
+    public void ton_kacanghijau(String tkacanghijau);
+    public void lahan_ubikayu(String lubikayu);
+    public void ton_ubikayu(String tubikayu);
+    public void lahan_ubijalar(String lubijalar);
+    public void ton_ubijalar(String tubijalar);
+    public void lahan_gula(String lgula);
+    public void ton_gula(String tgula);
+    public void lahan_rumput(String lrumput);
+    public void semak_belukar(String sbelukar);
+    public void lahan_kering(String lkering);
+    public void kebun(String kebun);
+    public void ton_daging(String tdaging);
+    public void ton_telur(String ttelur);
+    public void ton_susu(String tsusu);
+    public void luas_sungai(String sungai);
+    public void luas_waduk(String waduk);
+    public void luas_laut(String laut);
+    public void luas_kolam(String kolam);
+    public void ton_ikantawar(String tikanTawar);
+    public void ton_ikanlaut(String tikanLaut);
+    public void luas_hutanProduk(String produksi);
+    public void luas_hutanRaky(String rakyat);
+    public void luas_hutanLindu(String lindung);
+    public void ton_kayu(String tkayu);
+    public void jml_kendKecil(String kecil);
+    public void jml_kendBesar(String besar);
+    public void jml_rmhtgg_kk(String rmhkk);
+    public void jml_listrik_rmhtgg(String rmhtgg);
+    public void jml_listrik_industri(String indus);
+    public void jml_listrik_sosial(String sos);
+    public void jml_listrik_komersial(String komer);
+}

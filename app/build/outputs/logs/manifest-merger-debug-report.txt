@@ -1,0 +1,270 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from F:\ffmeg\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from F:\ffmeg\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from F:\ffmeg\app\src\main\AndroidManifest.xml:2:1-36:12
+MERGED from [com.thebluealliance:spectrum:0.7.1] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\jetified-spectrum-0.7.1.aar\d0df79930c8bd4768e4a78ea69aa0ce5\AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.material:material:1.1.0-alpha09] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\material-1.1.0-alpha09.aar\44be441210678361a6defcafdb54905d\AndroidManifest.xml:17:1-24:12
+MERGED from [com.ramotion.foldingcell:folding-cell:1.2.3] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\folding-cell-1.2.3.aar\f9f6b9bc289ef7ba7ff960d4b0c3b175\AndroidManifest.xml:2:1-11:12
+MERGED from [com.tbuonomo.andrui:viewpagerdotsindicator:4.1.2] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\viewpagerdotsindicator-4.1.2.aar\0864d1509d3340fd483cc7481e97924d\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.preference:preference:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\preference-1.0.0.aar\9b707dd3bd570fc93972910cfaeb235e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0-rc01.aar\a05dbaab167cd13d8bbaae4332b23b67\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.2.aar\bf86f20370ecc170d32107acd9c9131d\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\7c7e215fc49ac350f38adbe2fd2f7c73\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta03] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\viewpager2-1.0.0-beta03.aar\8209d7c7c508c843d51b3d9f3b60b051\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\recyclerview-1.1.0-beta01.aar\ad0da108f8ac9b55fd92cc1942b96eb6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\a6bc84c0ebe8127e77f7189a028ebedf\AndroidManifest.xml:17:1-22:12
+MERGED from [me.relex:circleindicator:1.2.2] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\jetified-circleindicator-1.2.2.aar\3dfa80633421ac58d6e53c095dfe226c\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.chenupt.android:springindicator:1.0.2] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\jetified-springindicator-1.0.2.aar\9e1b30ebdb6736d05f7967e3ecf39506\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\lifecycle-extensions-2.1.0.aar\13bfaa9997cbb4d5408d1ca33b3b4ba4\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\c37753c23b392306b2318c9581a0c73f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\9cc70bd6227dad4103f18c876c3ea545\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0-rc01] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0-rc01.aar\6155a2c128191782f261e69716d9242d\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0-rc01.aar\0b2a61e559e011736a45467cc8e50b47\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\ad7ba0286ea55fe9b2c02cfa868276b9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.1.0-beta01.aar\48683cb7820e5d5172b5f1764bac8645\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\transition-1.0.1.aar\ac5d1501ffb004fd152b5d7dc42f80ee\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0-rc01.aar\79e89b4202e5a276b4685015935e0325\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0-rc01.aar\7727a4e62ff9eba11d94b52870ea3014\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\dynamicanimation-1.0.0.aar\239329b050735a09d32ba11290765c4a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\690b0764ac3cbef8426192de4ff4d14b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\c959eeb22d75bab60d180af9c308c5d8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\aaa31fcbd2c8bba2d2e6a30c48e22c72\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0-rc01] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\activity-1.0.0-rc01.aar\4c8351ea42243a31de323b8ec0fb0e70\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\0d79b404d3c5ece1ecdd849323d05ed4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\44f16e43406f54f80ad0d734310b0b80\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\86a3835fdf021a6cd440ffaec0860a30\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\46d92e6c2b13ee5950a27317c68de93b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\7e8d1d2d80ec7d5e5bd01de8bed308ef\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0-rc02] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\core-1.1.0-rc02.aar\5a65c528a79c756da6b86d2b43cd2283\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\lifecycle-process-2.1.0.aar\d9447607059a08c1ef1b507cdc8849a4\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\lifecycle-service-2.1.0.aar\6d83cbf50eb855f045ca60953843821d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0.aar\bdc1567d586a7b1f560e8dc3d7a87866\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.1.0.aar\ae3af7cd45d20dbb9de701da678deabc\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.1.0.aar\e3438d6c919ab843ae42403f90753f2f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\core-runtime-2.1.0.aar\3c2f15649b80930d4643c35b943fd63c\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0-rc01.aar\221ef495ef05a53f85cc4e91426119e8\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0.aar\6827a1df53aa24b1eb410a5127e541f3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0-rc01.aar\21fa3e00a184249c311103e0a6ab8121\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\ca426f6347e91600db1bae8e027e4bf6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\3f0f2d9727d7a08c6432dd314afe2b91\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\6215aac9fa41329b51c24be8b75acaae\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\115c1001a0e2e9e5521bae6186e9fe09\AndroidManifest.xml:17:1-22:12
+INJECTED from F:\ffmeg\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from F:\ffmeg\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from F:\ffmeg\app\src\main\AndroidManifest.xml:2:1-36:12
+	package
+		ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:3:5-30
+		INJECTED from F:\ffmeg\app\src\main\AndroidManifest.xml
+		INJECTED from F:\ffmeg\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\ffmeg\app\src\main\AndroidManifest.xml
+		ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:2:1-36:12
+		INJECTED from F:\ffmeg\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from F:\ffmeg\app\src\main\AndroidManifest.xml
+		ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:2:1-36:12
+		INJECTED from F:\ffmeg\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:5:5-34:19
+MERGED from [com.google.android.material:material:1.1.0-alpha09] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\material-1.1.0-alpha09.aar\44be441210678361a6defcafdb54905d\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0-alpha09] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\material-1.1.0-alpha09.aar\44be441210678361a6defcafdb54905d\AndroidManifest.xml:22:5-20
+MERGED from [com.tbuonomo.andrui:viewpagerdotsindicator:4.1.2] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\viewpagerdotsindicator-4.1.2.aar\0864d1509d3340fd483cc7481e97924d\AndroidManifest.xml:11:5-47
+MERGED from [com.tbuonomo.andrui:viewpagerdotsindicator:4.1.2] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\viewpagerdotsindicator-4.1.2.aar\0864d1509d3340fd483cc7481e97924d\AndroidManifest.xml:11:5-47
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.2.aar\bf86f20370ecc170d32107acd9c9131d\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.2.aar\bf86f20370ecc170d32107acd9c9131d\AndroidManifest.xml:9:5-20
+MERGED from [com.github.chenupt.android:springindicator:1.0.2] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\jetified-springindicator-1.0.2.aar\9e1b30ebdb6736d05f7967e3ecf39506\AndroidManifest.xml:11:5-20
+MERGED from [com.github.chenupt.android:springindicator:1.0.2] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\jetified-springindicator-1.0.2.aar\9e1b30ebdb6736d05f7967e3ecf39506\AndroidManifest.xml:11:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\lifecycle-extensions-2.1.0.aar\13bfaa9997cbb4d5408d1ca33b3b4ba4\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\lifecycle-extensions-2.1.0.aar\13bfaa9997cbb4d5408d1ca33b3b4ba4\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.core:core:1.1.0-rc02] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\core-1.1.0-rc02.aar\5a65c528a79c756da6b86d2b43cd2283\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0-rc02] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\core-1.1.0-rc02.aar\5a65c528a79c756da6b86d2b43cd2283\AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\lifecycle-process-2.1.0.aar\d9447607059a08c1ef1b507cdc8849a4\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\lifecycle-process-2.1.0.aar\d9447607059a08c1ef1b507cdc8849a4\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0-rc01.aar\21fa3e00a184249c311103e0a6ab8121\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0-rc01.aar\21fa3e00a184249c311103e0a6ab8121\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0-rc02] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\core-1.1.0-rc02.aar\5a65c528a79c756da6b86d2b43cd2283\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:11:9-39
+activity#com.pwk.ecology.DetailActivity
+ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:12:9-61
+	android:name
+		ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:12:19-49
+activity#com.pwk.ecology.editor_5
+ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:13:9-16:71
+	android:label
+		ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:15:13-60
+	android:theme
+		ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:16:13-68
+	android:name
+		ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:14:13-37
+activity#com.pwk.ecology.editor_4
+ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:17:9-46
+	android:name
+		ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:17:19-43
+activity#com.pwk.ecology.editor_3
+ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:18:9-46
+	android:name
+		ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:18:19-43
+activity#com.pwk.ecology.editor_2
+ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:19:9-46
+	android:name
+		ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:19:19-43
+activity#com.pwk.ecology.EditorActivity
+ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:20:9-52
+	android:name
+		ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:20:19-49
+activity#com.pwk.ecology.ScrollingActivity
+ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:21:9-29:20
+	android:label
+		ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:23:13-45
+	android:name
+		ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:22:13-46
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:27:27-74
+meta-data#preloaded_fonts
+ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:31:9-33:57
+	android:resource
+		ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:33:13-54
+	android:name
+		ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml:32:13-43
+uses-sdk
+INJECTED from F:\ffmeg\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\ffmeg\app\src\main\AndroidManifest.xml
+INJECTED from F:\ffmeg\app\src\main\AndroidManifest.xml
+MERGED from [com.thebluealliance:spectrum:0.7.1] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\jetified-spectrum-0.7.1.aar\d0df79930c8bd4768e4a78ea69aa0ce5\AndroidManifest.xml:8:5-10:41
+MERGED from [com.thebluealliance:spectrum:0.7.1] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\jetified-spectrum-0.7.1.aar\d0df79930c8bd4768e4a78ea69aa0ce5\AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.material:material:1.1.0-alpha09] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\material-1.1.0-alpha09.aar\44be441210678361a6defcafdb54905d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha09] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\material-1.1.0-alpha09.aar\44be441210678361a6defcafdb54905d\AndroidManifest.xml:20:5-44
+MERGED from [com.ramotion.foldingcell:folding-cell:1.2.3] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\folding-cell-1.2.3.aar\f9f6b9bc289ef7ba7ff960d4b0c3b175\AndroidManifest.xml:7:5-9:41
+MERGED from [com.ramotion.foldingcell:folding-cell:1.2.3] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\folding-cell-1.2.3.aar\f9f6b9bc289ef7ba7ff960d4b0c3b175\AndroidManifest.xml:7:5-9:41
+MERGED from [com.tbuonomo.andrui:viewpagerdotsindicator:4.1.2] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\viewpagerdotsindicator-4.1.2.aar\0864d1509d3340fd483cc7481e97924d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.tbuonomo.andrui:viewpagerdotsindicator:4.1.2] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\viewpagerdotsindicator-4.1.2.aar\0864d1509d3340fd483cc7481e97924d\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.preference:preference:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\preference-1.0.0.aar\9b707dd3bd570fc93972910cfaeb235e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.preference:preference:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\preference-1.0.0.aar\9b707dd3bd570fc93972910cfaeb235e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0-rc01.aar\a05dbaab167cd13d8bbaae4332b23b67\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0-rc01.aar\a05dbaab167cd13d8bbaae4332b23b67\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.2.aar\bf86f20370ecc170d32107acd9c9131d\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.2.aar\bf86f20370ecc170d32107acd9c9131d\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\7c7e215fc49ac350f38adbe2fd2f7c73\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\7c7e215fc49ac350f38adbe2fd2f7c73\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta03] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\viewpager2-1.0.0-beta03.aar\8209d7c7c508c843d51b3d9f3b60b051\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta03] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\viewpager2-1.0.0-beta03.aar\8209d7c7c508c843d51b3d9f3b60b051\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\recyclerview-1.1.0-beta01.aar\ad0da108f8ac9b55fd92cc1942b96eb6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\recyclerview-1.1.0-beta01.aar\ad0da108f8ac9b55fd92cc1942b96eb6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\a6bc84c0ebe8127e77f7189a028ebedf\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\a6bc84c0ebe8127e77f7189a028ebedf\AndroidManifest.xml:20:5-44
+MERGED from [me.relex:circleindicator:1.2.2] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\jetified-circleindicator-1.2.2.aar\3dfa80633421ac58d6e53c095dfe226c\AndroidManifest.xml:8:5-10:41
+MERGED from [me.relex:circleindicator:1.2.2] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\jetified-circleindicator-1.2.2.aar\3dfa80633421ac58d6e53c095dfe226c\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.chenupt.android:springindicator:1.0.2] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\jetified-springindicator-1.0.2.aar\9e1b30ebdb6736d05f7967e3ecf39506\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.chenupt.android:springindicator:1.0.2] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\jetified-springindicator-1.0.2.aar\9e1b30ebdb6736d05f7967e3ecf39506\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\lifecycle-extensions-2.1.0.aar\13bfaa9997cbb4d5408d1ca33b3b4ba4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\lifecycle-extensions-2.1.0.aar\13bfaa9997cbb4d5408d1ca33b3b4ba4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\c37753c23b392306b2318c9581a0c73f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\c37753c23b392306b2318c9581a0c73f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\9cc70bd6227dad4103f18c876c3ea545\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\9cc70bd6227dad4103f18c876c3ea545\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-rc01] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0-rc01.aar\6155a2c128191782f261e69716d9242d\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0-rc01] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0-rc01.aar\6155a2c128191782f261e69716d9242d\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0-rc01.aar\0b2a61e559e011736a45467cc8e50b47\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0-rc01.aar\0b2a61e559e011736a45467cc8e50b47\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\ad7ba0286ea55fe9b2c02cfa868276b9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\ad7ba0286ea55fe9b2c02cfa868276b9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.1.0-beta01.aar\48683cb7820e5d5172b5f1764bac8645\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.1.0-beta01.aar\48683cb7820e5d5172b5f1764bac8645\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\transition-1.0.1.aar\ac5d1501ffb004fd152b5d7dc42f80ee\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\transition-1.0.1.aar\ac5d1501ffb004fd152b5d7dc42f80ee\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0-rc01.aar\79e89b4202e5a276b4685015935e0325\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0-rc01.aar\79e89b4202e5a276b4685015935e0325\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0-rc01.aar\7727a4e62ff9eba11d94b52870ea3014\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0-rc01.aar\7727a4e62ff9eba11d94b52870ea3014\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\dynamicanimation-1.0.0.aar\239329b050735a09d32ba11290765c4a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\dynamicanimation-1.0.0.aar\239329b050735a09d32ba11290765c4a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\690b0764ac3cbef8426192de4ff4d14b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\690b0764ac3cbef8426192de4ff4d14b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\c959eeb22d75bab60d180af9c308c5d8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\c959eeb22d75bab60d180af9c308c5d8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\aaa31fcbd2c8bba2d2e6a30c48e22c72\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\aaa31fcbd2c8bba2d2e6a30c48e22c72\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-rc01] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\activity-1.0.0-rc01.aar\4c8351ea42243a31de323b8ec0fb0e70\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0-rc01] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\activity-1.0.0-rc01.aar\4c8351ea42243a31de323b8ec0fb0e70\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\0d79b404d3c5ece1ecdd849323d05ed4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\0d79b404d3c5ece1ecdd849323d05ed4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\44f16e43406f54f80ad0d734310b0b80\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\44f16e43406f54f80ad0d734310b0b80\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\86a3835fdf021a6cd440ffaec0860a30\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\86a3835fdf021a6cd440ffaec0860a30\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\46d92e6c2b13ee5950a27317c68de93b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\46d92e6c2b13ee5950a27317c68de93b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\7e8d1d2d80ec7d5e5bd01de8bed308ef\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\7e8d1d2d80ec7d5e5bd01de8bed308ef\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-rc02] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\core-1.1.0-rc02.aar\5a65c528a79c756da6b86d2b43cd2283\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0-rc02] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\core-1.1.0-rc02.aar\5a65c528a79c756da6b86d2b43cd2283\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\lifecycle-process-2.1.0.aar\d9447607059a08c1ef1b507cdc8849a4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\lifecycle-process-2.1.0.aar\d9447607059a08c1ef1b507cdc8849a4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\lifecycle-service-2.1.0.aar\6d83cbf50eb855f045ca60953843821d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\lifecycle-service-2.1.0.aar\6d83cbf50eb855f045ca60953843821d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0.aar\bdc1567d586a7b1f560e8dc3d7a87866\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0.aar\bdc1567d586a7b1f560e8dc3d7a87866\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.1.0.aar\ae3af7cd45d20dbb9de701da678deabc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.1.0.aar\ae3af7cd45d20dbb9de701da678deabc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.1.0.aar\e3438d6c919ab843ae42403f90753f2f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.1.0.aar\e3438d6c919ab843ae42403f90753f2f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\core-runtime-2.1.0.aar\3c2f15649b80930d4643c35b943fd63c\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\core-runtime-2.1.0.aar\3c2f15649b80930d4643c35b943fd63c\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0-rc01.aar\221ef495ef05a53f85cc4e91426119e8\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0-rc01.aar\221ef495ef05a53f85cc4e91426119e8\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0.aar\6827a1df53aa24b1eb410a5127e541f3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0.aar\6827a1df53aa24b1eb410a5127e541f3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0-rc01.aar\21fa3e00a184249c311103e0a6ab8121\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0-rc01.aar\21fa3e00a184249c311103e0a6ab8121\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\ca426f6347e91600db1bae8e027e4bf6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\ca426f6347e91600db1bae8e027e4bf6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\3f0f2d9727d7a08c6432dd314afe2b91\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\3f0f2d9727d7a08c6432dd314afe2b91\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\6215aac9fa41329b51c24be8b75acaae\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\6215aac9fa41329b51c24be8b75acaae\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\115c1001a0e2e9e5521bae6186e9fe09\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\115c1001a0e2e9e5521bae6186e9fe09\AndroidManifest.xml:20:5-44
+INJECTED from F:\ffmeg\app\src\main\AndroidManifest.xml
+INJECTED from F:\ffmeg\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\ffmeg\app\src\main\AndroidManifest.xml
+		ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml
+		INJECTED from F:\ffmeg\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\ffmeg\app\src\main\AndroidManifest.xml
+		ADDED from F:\ffmeg\app\src\main\AndroidManifest.xml
+		INJECTED from F:\ffmeg\app\src\main\AndroidManifest.xml
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\lifecycle-process-2.1.0.aar\d9447607059a08c1ef1b507cdc8849a4\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\lifecycle-process-2.1.0.aar\d9447607059a08c1ef1b507cdc8849a4\AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\lifecycle-process-2.1.0.aar\d9447607059a08c1ef1b507cdc8849a4\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\lifecycle-process-2.1.0.aar\d9447607059a08c1ef1b507cdc8849a4\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Ravelism\.gradle\caches\transforms-1\files-1.1\lifecycle-process-2.1.0.aar\d9447607059a08c1ef1b507cdc8849a4\AndroidManifest.xml:24:13-79

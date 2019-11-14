@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".editor_3">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="#FFFF"
+        app:cardCornerRadius="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/judul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Lahan Peternakan"
+                android:textAlignment="textEnd"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/judul"
+                android:weightSum="4">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2">
+
+                    <TextView
+                        android:id="@+id/rumput"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:textSize="12sp"
+                        android:text="Padang Rumput(Hektare)"
+                        />
+
+                    <EditText
+                        android:id="@+id/luas_rumput"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="21dp"
+                        android:inputType="number"
+                        />
+
+                    <TextView
+                        android:id="@+id/semak"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="16dp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:textSize="12sp"
+                        android:layout_below="@+id/rumput"
+                        android:text="Semak Belukar(Hektare)"
+                        />
+
+                    <EditText
+                        android:id="@+id/luas_semak"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/luas_rumput"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="21dp"
+                        android:inputType="number"/>
+
+                    <TextView
+                        android:id="@+id/kering"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:textSize="12sp"
+                        android:ems="10"
+                        android:layout_below="@+id/semak"
+                        android:text="Lahan Kering(Hektare)"
+                        />
+
+                    <EditText
+                        android:id="@+id/luas_kering"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/luas_semak"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="21dp"
+                        android:ems="10"
+                        android:inputType="number" />
+
+
+                    <TextView
+                        android:id="@+id/kebun"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:textSize="12sp"
+                        android:ems="10"
+                        android:layout_below="@+id/kering"
+                        android:text="Kebun(Hektare)"
+                        />
+
+                    <EditText
+                        android:id="@+id/luas_kebun"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/luas_kering"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="21dp"
+                        android:layout_marginLeft="16dp"
+                        android:ems="10"
+                        android:inputType="number" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2">
+
+                    <TextView
+                        android:id="@+id/tonDaging"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:textSize="12sp"
+                        android:text="Daging(ton)" />
+
+                    <EditText
+                        android:id="@+id/ton_daging"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="21dp"
+                        android:inputType="number" />
+
+                    <TextView
+                        android:id="@+id/tonTelur"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:textSize="12sp"
+                        android:layout_below="@+id/tonDaging"
+                        android:text="Telur(ton)"
+                        />
+
+                    <EditText
+                        android:id="@+id/ton_telur"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ton_daging"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="21dp"
+                        android:inputType="number" />
+
+                    <TextView
+                        android:id="@+id/tonSusu"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:textSize="12sp"
+                        android:layout_below="@+id/tonTelur"
+                        android:text="Susu(ton)"
+                        />
+
+                    <EditText
+                        android:id="@+id/ton_susu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ton_telur"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="21dp"
+                        android:inputType="number" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
