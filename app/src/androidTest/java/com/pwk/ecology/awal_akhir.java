@@ -57,7 +57,7 @@ public class awal_akhir {
                                         0),
                                 0),
                         isDisplayed()));
-        textInputEditText.perform(replaceText("surabaya"), closeSoftKeyboard());
+        textInputEditText.perform(replaceText("Jogja"), closeSoftKeyboard());
 
         ViewInteraction textInputEditText2 = onView(
                 allOf(withId(R.id.luas_wilayah),

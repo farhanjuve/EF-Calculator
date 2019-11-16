@@ -261,42 +261,145 @@ public class DBHelper extends SQLiteOpenHelper {
                 double luas_lahan_terbangun = res.getDouble(2) - sum_lahan_pertanian - sum_lahan_peternakan - sum_lahan_perikanan - sum_lahan_kehutanan;
                     // Yield Region
                 double yr_tani = sum_pny_tani/sum_lahan_pertanian;
+                if(Double.isNaN(yr_tani) == true){
+                    yr_tani = 0.0;
+                }
                 double yr_ternak = sum_pny_ternak/sum_lahan_peternakan;
+                if(Double.isNaN(yr_ternak) == true){
+                    yr_ternak = 0.0;
+                }
                 double yr_ikan = sum_pny_ikan/sum_lahan_perikanan;
+                if(Double.isNaN(yr_ikan) == true){
+                    yr_ikan = 0.0;
+                }
                 double yr_hutan = tegakan_m3/(res.getDouble(34) + res.getDouble(35));
+                if(Double.isNaN(yr_hutan) == true){
+                    yr_hutan = 0.0;
+                }
                 double yr_karbon = tegakan_m3 / sum_lahan_kehutanan;
+                if(Double.isNaN(yr_karbon) == true){
+                    yr_karbon = 0.0;
+                }
                 double yr_terbangun = sum_pny_tani/sum_lahan_pertanian;
+                if(Double.isNaN(yr_terbangun) == true){
+                    yr_terbangun = 0.0;
+                }
+
                     // Yield Factor
                 double yf_tani = yr_tani/7.3043;
+                if(Double.isNaN(yf_tani) == true){
+                    yf_tani = 0.0;
+                }
                 double yf_ternak = yr_ternak/6.19;
+                if(Double.isNaN(yf_ternak) == true){
+                    yf_ternak = 0.0;
+                }
                 double yf_ikan = yr_ikan/503.836;
+                if(Double.isNaN(yf_ikan) == true){
+                    yf_ikan = 0.0;
+                }
                 double yf_hutan = yr_hutan/1.8188;
+                if(Double.isNaN(yf_hutan) == true){
+                    yf_hutan = 0.0;
+                }
                 double yf_karbon = yr_karbon/1.8188;
+                if(Double.isNaN(yf_karbon) == true){
+                    yf_karbon = 0.0;
+                }
                 double yf_terbangun = yr_terbangun/7.3043; /*?*/
-                    // Biokapasitas
+                if(Double.isNaN(yf_terbangun) == true){
+                    yf_terbangun = 0.0;
+                }
+
+                // Biokapasitas
                 double bioA = sum_lahan_pertanian * yf_tani * 2.52;
+                if(Double.isNaN(bioA) == true){
+                    bioA = 0.0;
+                }
                 double bioB = sum_lahan_peternakan * yf_ternak * 0.46;
+                if(Double.isNaN(bioB) == true){
+                    bioB = 0.0;
+                }
                 double bioC = sum_lahan_perikanan * yf_ikan * 0.37;
+                if(Double.isNaN(bioC) == true){
+                    bioC = 0.0;
+                }
                 double bioD = sum_lahan_kehutanan * yf_hutan * 1.29;
+                if(Double.isNaN(bioD) == true){
+                    bioD = 0.0;
+                }
                 double bioE = sum_lahan_pertanian + sum_lahan_peternakan * yf_karbon * 1.29;
+                if(Double.isNaN(bioE) == true){
+                    bioE = 0.0;
+                }
                 double bioF = luas_lahan_terbangun * yf_terbangun * 2.52;
-                    // Telapak Ekologis
+                if(Double.isNaN(bioF) == true){
+                    bioF = 0.0;
+                }
+
+                // Telapak Ekologis
                 double teA = sum_kons_tani/yr_tani * yf_tani * 2.52;
+                if(Double.isNaN(teA) == true){
+                    teA = 0.0;
+                }
                 double teB = sum_kons_ternak/yr_ternak * yf_ternak * 0.46;
+                if(Double.isNaN(teB) == true){
+                    teB = 0.0;
+                }
                 double teC = sum_kons_ikan/yr_ikan * yf_ikan * 0.37;
+                if(Double.isNaN(teC) == true){
+                    teC = 0.0;
+                }
                 double teD = res.getDouble(37)/yr_hutan * yf_hutan * 1.29;
+                if(Double.isNaN(teD) == true){
+                    teD = 0.0;
+                }
                 double teE = daya_rosot * 1.29;
+                if(Double.isNaN(teE) == true){
+                    teE = 0.0;
+                }
                 double teF = bioF;
+                if(Double.isNaN(teF) == true){
+                    teF = 0.0;
+                }
                 double sum_te = teA + teB + teC +teD +teE + teF;
-                    // Defisit Ekologis
+                if(Double.isNaN(sum_te) == true){
+                    sum_te = 0.0;
+                }
+
+                // Defisit Ekologis
                 double deA = bioA - teA;
+                if(Double.isNaN(deA) == true){
+                    deA = 0.0;
+                }
                 double deB = bioB - teB;
+                if(Double.isNaN(deB) == true){
+                    deB = 0.0;
+                }
                 double deC = bioC - teC;
+                if(Double.isNaN(deC) == true){
+                    deC = 0.0;
+                }
                 double deD = bioD - teD;
+                if(Double.isNaN(deD) == true){
+                    deD = 0.0;
+                }
                 double deE = bioE - teE;
+                if(Double.isNaN(deE) == true){
+                    deE = 0.0;
+                }
                 double deF = bioF - teF;
+                if(Double.isNaN(deF) == true){
+                    deF = 0.0;
+                }
                 double sum_de = deA + deB + deC + deD + deE + deF;
+                if(Double.isNaN(sum_de) == true){
+                    sum_de = 0.0;
+                }
                 double prosentase_de = sum_de/sum_te + 100;
+                if(Double.isNaN(prosentase_de) == true){
+                    prosentase_de = 0.0;
+                }
 
                 DecimalFormat df = new DecimalFormat("#.##");
 
