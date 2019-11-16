@@ -24,7 +24,6 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 public class ScrollingActivity extends AppCompatActivity implements dataAdapter.onNoteListener {
-
     private static final String TAG = "ScrollingActivity";
 
     private ArrayList<dataModelAdapter> modelList;
