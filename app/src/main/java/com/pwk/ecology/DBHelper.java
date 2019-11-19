@@ -237,14 +237,17 @@ public class DBHelper extends SQLiteOpenHelper {
 
                 /*Emisi*/
                     // Kendaraan
-                double emisi_kend_kecil_tahun = res.getDouble(38) * 150.42;
+                double emisi_kend_kecil_tahun = res.getDouble(38) * 15042/100;
+//                Log.d(TAG, "cekricek: " + res.getDouble(38) + "    " + emisi_kend_kecil_tahun);
                 double kend_kecil_co2 = emisi_kend_kecil_tahun * 82.97/1000;
+//                Log.d(TAG, "cekricek2: " + kend_kecil_co2 + "    " + emisi_kend_kecil_tahun);
                 double emisi_kend_besar_tahun = res.getDouble(39) * 2930.3;
                 double kend_besar_co2 = emisi_kend_besar_tahun * 74.1/1000;
                 double sum_co2_kend = kend_kecil_co2 + kend_besar_co2;
-                    // Gas Rumah Tangga
+                // Gas Rumah Tangga
                 double emisi_rt = res.getDouble(40) * 36;
                 double emisi_co2_rt = emisi_rt * 63.1;
+                Log.d(TAG, "cekricek33: " + res.getDouble(40) + " dikali 36 = " + emisi_rt);
                     // Gas Listrik
                 double sum_penggunaan_listrik = res.getDouble(41) + res.getDouble(42)
                         + res.getDouble(43) + res.getDouble(44);
@@ -255,6 +258,7 @@ public class DBHelper extends SQLiteOpenHelper {
                 double sum_co2_listrik = emisi_listrik_rt + emisi_listrik_industri +
                         emisi_listrik_sosial + emisi_listrik_komersial;
                 double sum_co2 = sum_co2_kend + emisi_co2_rt + sum_co2_listrik;
+                Log.d(TAG, "cekricek: " + sum_co2_kend + " " + emisi_co2_rt + " " + sum_co2_listrik);
                 double daya_rosot = sum_co2 / 4.241;
 
                 /*Kesimpulan*/

@@ -1712,6 +1712,8 @@ drawable arrow
 drawable avd_hide_password
 drawable avd_show_password
 drawable background
+drawable bg_6
+drawable bg_9
 drawable bg_papyrus
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -1789,6 +1791,7 @@ font open_sans_light
 font playfair_display
 font roboto
 font roboto_medium
+font rubik
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -1832,7 +1835,6 @@ id a6
 id a7
 id a8
 id a9
-id aa
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
 id accessibility_custom_action_1

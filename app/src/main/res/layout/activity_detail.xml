@@ -19,10 +19,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:fontFamily="@font/playfair_display"
             android:text="Laporan Ekologis"
             android:textSize="30sp"
-            android:layout_marginLeft="17dp"/>
+            android:layout_marginLeft="17dp"
+            android:fontFamily="@font/rubik"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/md_black_1000" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -33,19 +35,23 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
-                android:fontFamily="@font/roboto_medium"
+                android:layout_marginBottom="10dp"
                 android:text="Kota "
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:fontFamily="@font/rubik"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/md_black_1000" />
 
             <TextView
                 android:id="@+id/tvs_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
-                android:fontFamily="@font/roboto_medium"
+                android:layout_marginBottom="10dp"
                 android:text=" tvs_1"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:fontFamily="@font/rubik"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/md_black_1000" />
         </LinearLayout>
 
         <androidx.cardview.widget.CardView

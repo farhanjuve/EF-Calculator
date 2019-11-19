@@ -395,10 +395,10 @@ public class awal_akhir {
                                         0),
                                 5),
                         isDisplayed()));
-        appCompatEditText25.perform(replaceText("768720"));
+        appCompatEditText25.perform(replaceText("2746476"));
 
         ViewInteraction appCompatEditText26 = onView(
-                allOf(withId(R.id.jml_rumah_tangga), withText("768720"),
+                allOf(withId(R.id.jml_rumah_tangga), withText("2746476"),
                         childAtPosition(
                                 childAtPosition(
                                         withClassName(is("android.widget.LinearLayout")),

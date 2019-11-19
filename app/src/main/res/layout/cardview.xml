@@ -14,6 +14,18 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <TextView
+            android:id="@+id/tv_kota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="Kota/Kab"
+            android:textSize="22sp"
+            android:fontFamily="@font/rubik"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/md_black_1000" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -24,31 +36,36 @@
                 android:padding="8dp">
 
                 <TextView
-                    android:id="@+id/aa"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Kota/Kab" />
-
-                <TextView
                     android:id="@+id/bb"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/aa"
-                    android:text="Total Telapak Ekologis" />
+                    android:text="Total Telapak Ekologis"
+                    android:fontFamily="@font/rubik"
+                    android:textSize="14sp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/md_black_1000" />
 
                 <TextView
                     android:id="@+id/cc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/bb"
-                    android:text="Total Defisit Ekologis" />
+                    android:text="Total Defisit Ekologis"
+                    android:fontFamily="@font/rubik"
+                    android:textSize="14sp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/md_black_1000" />
 
                 <TextView
                     android:id="@+id/dd"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/cc"
-                    android:text="Prosentase Defisit Ekologis" />
+                    android:text="Prosentase Defisit Ekologis"
+                    android:fontFamily="@font/rubik"
+                    android:textSize="14sp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/md_black_1000" />
 
             </RelativeLayout>
             <RelativeLayout
@@ -57,31 +74,36 @@
                 android:padding="8dp">
 
                 <TextView
-                    android:id="@+id/tv_kota"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Kota/Kab" />
-
-                <TextView
                     android:id="@+id/tv_info1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/tv_kota"
-                    android:text="Luas" />
+                    android:text="Luas"
+                    android:fontFamily="@font/rubik"
+                    android:textSize="14sp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/md_black_1000" />
 
                 <TextView
                     android:id="@+id/tv_info2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/tv_info1"
-                    android:text="item_3" />
+                    android:text="item_3"
+                    android:fontFamily="@font/rubik"
+                    android:textSize="14sp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/md_black_1000" />
 
                 <TextView
                     android:id="@+id/tv_info3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/tv_info2"
-                    android:text="item_4" />
+                    android:text="item_4"
+                    android:fontFamily="@font/rubik"
+                    android:textSize="14sp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/md_black_1000" />
 
             </RelativeLayout>
         </LinearLayout>
@@ -100,6 +122,10 @@
 
             <TextView
                 android:id="@+id/tv_hapus"
+                android:fontFamily="@font/rubik"
+                android:textSize="12sp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/md_black_1000"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:clickable="true"

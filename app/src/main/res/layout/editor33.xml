@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/pattern"
+    android:background="@drawable/bg_6"
     tools:context=".EditorActivity">
 
     <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
@@ -18,7 +18,7 @@
         app:dotsSize="16dp"
         app:dotsSpacing="10dp"
         app:dotsWidthFactor="2.5"
-        app:selectedDotColor="@color/md_red_700"
+        app:selectedDotColor="@color/md_black_1000"
         app:progressMode="true"
         />
 
