@@ -914,6 +914,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color indicator_unselected
 color material_blue_grey_800
 color material_blue_grey_900
@@ -1711,7 +1712,6 @@ drawable abc_vector_test
 drawable arrow
 drawable avd_hide_password
 drawable avd_show_password
-drawable background
 drawable bg_6
 drawable bg_9
 drawable bg_papyrus
@@ -1731,6 +1731,8 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable dot_background
 drawable efset
+drawable efset2
+drawable efset3
 drawable ic_add_24dp
 drawable ic_add_white_24dp
 drawable ic_arrow_down_24dp
@@ -1901,6 +1903,7 @@ id bb
 id beginning
 id blocking
 id bottom
+id btn_save
 id budidaya
 id buttonPanel
 id cancel_action
@@ -2121,6 +2124,7 @@ id save_non_transition_alpha
 id save_scale_type
 id scale
 id screen
+id scrlv
 id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp

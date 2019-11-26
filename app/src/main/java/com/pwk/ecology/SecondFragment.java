@@ -49,7 +49,7 @@ public class SecondFragment extends Fragment {
     private OnFragmentInteractionListener mListener;
 
     TextInputEditText tv1, tv2, tv3, tv4;
-    static Button btnRefresh;
+    static Button SaveBtn;
     View rootView;
 
     public SecondFragment() {
@@ -81,6 +81,7 @@ public class SecondFragment extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+
     }
 
     @Override
@@ -88,6 +89,14 @@ public class SecondFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         rootView = inflater.inflate(R.layout.fragment_second, container, false);
+        SaveBtn = (Button) rootView.findViewById(R.id.btn_save);
+        SaveBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                EditorActivity.mFinishBtn.performClick();
+            }
+        });
+
 /*        btnRefresh = rootView.findViewById(R.id.refresh);
         btnRefresh.setOnClickListener(new View.OnClickListener() {
             @Override

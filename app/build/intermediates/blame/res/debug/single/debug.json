@@ -184,10 +184,6 @@
         "source": "C:\\Users\\Ravelism\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.1.0-rc01.aar\\a05dbaab167cd13d8bbaae4332b23b67\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
-        "merged": "F:\\ffmeg\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_background.png.flat",
-        "source": "F:\\ffmeg\\app\\src\\main\\res\\drawable-hdpi\\background.png"
-    },
-    {
         "merged": "F:\\ffmeg\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_arrow_down_24dp.xml.flat",
         "source": "C:\\Users\\Ravelism\\.gradle\\caches\\transforms-1\\files-1.1\\preference-1.0.0.aar\\9b707dd3bd570fc93972910cfaeb235e\\res\\drawable-anydpi-v21\\ic_arrow_down_24dp.xml"
     },
@@ -376,10 +372,6 @@
         "source": "C:\\Users\\Ravelism\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.1.0-rc01.aar\\a05dbaab167cd13d8bbaae4332b23b67\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "F:\\ffmeg\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_background.png.flat",
-        "source": "F:\\ffmeg\\app\\src\\main\\res\\drawable-mdpi\\background.png"
-    },
-    {
         "merged": "F:\\ffmeg\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Ravelism\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.1.0-rc01.aar\\a05dbaab167cd13d8bbaae4332b23b67\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
@@ -390,6 +382,10 @@
     {
         "merged": "F:\\ffmeg\\app\\build\\intermediates\\res\\merged\\debug\\animator_design_fab_hide_motion_spec.xml.flat",
         "source": "C:\\Users\\Ravelism\\.gradle\\caches\\transforms-1\\files-1.1\\material-1.1.0-alpha09.aar\\44be441210678361a6defcafdb54905d\\res\\animator\\design_fab_hide_motion_spec.xml"
+    },
+    {
+        "merged": "F:\\ffmeg\\app\\build\\intermediates\\res\\merged\\debug\\drawable_efset3.png.flat",
+        "source": "F:\\ffmeg\\app\\src\\main\\res\\drawable\\efset3.png"
     },
     {
         "merged": "F:\\ffmeg\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_checkbox_unchecked_to_checked_mtrl_animation.xml.flat",
@@ -788,10 +784,6 @@
         "source": "C:\\Users\\Ravelism\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.1.0-rc01.aar\\a05dbaab167cd13d8bbaae4332b23b67\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
-        "merged": "F:\\ffmeg\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_background.png.flat",
-        "source": "F:\\ffmeg\\app\\src\\main\\res\\drawable-xxxhdpi\\background.png"
-    },
-    {
         "merged": "F:\\ffmeg\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\Ravelism\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.1.0-rc01.aar\\a05dbaab167cd13d8bbaae4332b23b67\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
@@ -866,10 +858,6 @@
     {
         "merged": "F:\\ffmeg\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Ravelism\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.1.0-rc01.aar\\a05dbaab167cd13d8bbaae4332b23b67\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "F:\\ffmeg\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_background.png.flat",
-        "source": "F:\\ffmeg\\app\\src\\main\\res\\drawable-xhdpi\\background.png"
     },
     {
         "merged": "F:\\ffmeg\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
@@ -1772,6 +1760,10 @@
         "source": "C:\\Users\\Ravelism\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.1.0-rc01.aar\\a05dbaab167cd13d8bbaae4332b23b67\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
+        "merged": "F:\\ffmeg\\app\\build\\intermediates\\res\\merged\\debug\\drawable_efset2.png.flat",
+        "source": "F:\\ffmeg\\app\\src\\main\\res\\drawable\\efset2.png"
+    },
+    {
         "merged": "F:\\ffmeg\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "C:\\Users\\Ravelism\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.1.0-rc01.aar\\a05dbaab167cd13d8bbaae4332b23b67\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
     },
@@ -2370,10 +2362,6 @@
     {
         "merged": "F:\\ffmeg\\app\\build\\intermediates\\res\\merged\\debug\\color_design_icon_tint.xml.flat",
         "source": "C:\\Users\\Ravelism\\.gradle\\caches\\transforms-1\\files-1.1\\material-1.1.0-alpha09.aar\\44be441210678361a6defcafdb54905d\\res\\color\\design_icon_tint.xml"
-    },
-    {
-        "merged": "F:\\ffmeg\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_background.png.flat",
-        "source": "F:\\ffmeg\\app\\src\\main\\res\\drawable-xxhdpi\\background.png"
     },
     {
         "merged": "F:\\ffmeg\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_36dp.png.flat",

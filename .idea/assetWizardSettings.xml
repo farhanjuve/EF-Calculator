@@ -51,7 +51,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="scalingPercent" value="51" />
+                                                <entry key="scalingPercent" value="95" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -62,9 +62,7 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="fd2323" />
-                                      <entry key="backgroundLayerName" value="bg_papyrus" />
-                                      <entry key="foregroundImage" value="C:\Users\Ravelism\Pictures\Ecology_gif\1.png" />
+                                      <entry key="foregroundImage" value="F:\ffmeg\app\src\main\res\drawable\efset3.png" />
                                     </map>
                                   </option>
                                 </PersistentState>

@@ -18,7 +18,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="400dp"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <TextView
@@ -205,7 +205,7 @@
                             android:layout_below="@+id/luas_ubi"
                             android:layout_alignParentRight="true"
                             android:layout_marginLeft="16dp"
-                            android:layout_marginTop="14dp"
+                            android:layout_marginTop="20dp"
                             android:layout_marginRight="37dp"
                             android:ems="10"
                             android:inputType="number" />
